@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* Botao */
+.btn-primary{
+    background-color: #1DB954;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+#navbar{
+    display: flex;
+    background-color: rgba(0,0,0,0.6);
+    justify-content: center;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#navbar .navbar-container{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.logo{
+    height: 40px;
+    width: auto;
+}
+#navbar .navbar-container ul{
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+}
+#navbar .navbar-container ul li{
+    padding: 0 20px;
+}
+
+#navbar .navbar-container ul a:nth-child(3){
+    border-right: 1px solid white;
+}
+/* Showcase */
+#showcase{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url('img/showcase.webp') center center/cover;
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: color;
+}
+#showcase .showcase-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    font-size: 5rem;
+}
+p{
+    margin: 15px 0;
+    font-size: 1.1rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+/* Footer */
+#footer{
+    justify-content: center;
+    display: flex;
+    background-color: black;
+}
+#footer .footer-container{
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+#footer .footer-container ul{
+    list-style: none;
+    color: white;
+    display: block;
+
+}
+#footer .footer-container ul li{
+    padding: 0 90px;
+    margin-top: 20px;
+}
